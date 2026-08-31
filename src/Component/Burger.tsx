@@ -1,16 +1,17 @@
 import './Burger.css'
+import logo from '../assets/logo.png'
 
 function Burger() {
   return (
     <header className="navbar">
       <div className="logo">
-        <span className="logo-text">TASTY BURGER</span>
+        <img src={logo} alt="Tasty Burger Logo" className="logo-img" />
       </div>
       <nav className="nav-links">
-        <a href="#about">ABOUT</a>
-        <a href="#menu">OUR MENU</a>
-        <a href="#shop">SHOP</a>
-        <a href="#contact">CONTACT</a>
+        <button className="nav-button">ABOUT</button>
+        <button className="nav-button">OUR MENU</button>
+        <button className="nav-button">SHOP</button>
+        <button className="nav-button">CONTACT</button>
       </nav>
       <div className="cart-icon">
         🛒<span className="cart-count">2</span>
