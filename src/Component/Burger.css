@@ -29,3 +29,22 @@
 .nav-button:hover {
   color: #e63946;
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.hero h1 {
+  color: #e63946;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #666;
+  line-height: 1.6;
+}

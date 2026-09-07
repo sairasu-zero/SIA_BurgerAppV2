@@ -1,8 +1,10 @@
 import './Burger.css'
 import logo from '../assets/logo.png'
+import ProductGrid from './ProductGrid'
 
 function Burger() {
   return (
+    <>
     <header className="navbar">
       <div className="logo">
         <img src={logo} alt="Tasty Burger Logo" className="logo-img" />
@@ -17,6 +19,17 @@ function Burger() {
         🛒<span className="cart-count">2</span>
       </div>
     </header>
+    <section className="hero">
+        <h1>OUR CRAZY BURGERS</h1>
+            <p>
+                Get ready for a wild ride of flavors! Our crazy burgers are loaded with juicy
+                patties, bold toppings, and irresistible sauces, all stacked on a perfectly toasted
+                bun. Whether you like it cheesy, or extra meaty, we've got a burger that will blow
+                your mind!
+            </p>
+    </section>
+    <ProductGrid />
+    </>
   )
 }
 
