@@ -8,6 +8,7 @@ export interface Product {
   name: string
   description: string
   rating: number
+  price: number
   image: string
 }
 
@@ -17,6 +18,7 @@ export const products: Product[] = [
     name: "Crispy Chicken",
     description: "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
     rating: 5,
+    price: 99.15,
     image: crispyChicken
   },
   {
@@ -24,6 +26,7 @@ export const products: Product[] = [
     name: "Ultimate Bacon",
     description: "House patty, cheddar cheese, bacon, onion, mustard",
     rating: 4.5,
+    price: 99.32,
     image: ultimateBacon
   },
   {
@@ -31,6 +34,7 @@ export const products: Product[] = [
     name: "Black Sheep",
     description: "American cheese, tomato relish, avocado, lettuce, red onion",
     rating: 4,
+    price: 69.15,
     image: blackSheep
   },
   {
@@ -38,6 +42,7 @@ export const products: Product[] = [
     name: "Vegan Burger",
     description: "House patty, cheddar cheese, bacon, onion, mustard",
     rating: 4.5,
+    price: 99.25,
     image: veganBurger
   }
 ]
