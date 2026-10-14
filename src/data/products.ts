@@ -40,7 +40,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Vegan Burger",
-    description: "House patty, cheddar cheese, bacon, onion, mustard",
+    description: "A plant-based pick with its own bold, savory character",
     rating: 4.5,
     price: 99.25,
     image: veganBurger
